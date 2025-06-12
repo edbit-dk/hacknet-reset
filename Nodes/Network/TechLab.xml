@@ -1,0 +1,141 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="techLab" 
+name="SEATTLE TECH LAB"
+security="0" 
+type="3">
+
+<adminPass pass="admin" />
+
+  <proxy time="1" />
+  <firewall level="6" solution="hacker" additionalTime="1"/>
+  <portsForCrack val="3" />
+  <ports>22, 21, 25</ports>
+  <trace time="10" />
+  <tracker />
+
+<account username="ftp" password="uploader" type="0" />
+
+  <account username="guest" password="" type="1" />
+
+  <file path="bin" name="PROGRAMS.txt">
+All new programs are uploaded to the FTP server.
+Use SCP (*) all to download, and UPLOAD to upload files.
+
+--RootKit--
+Run by typing "PortHack". 
+Experimental password-cracking tool that can find any password, if ALL required ports are open!
+
+--SSHCrack--
+Cracks Telnet/SSH ports. 
+Command: "SSHCrack [port]"
+
+--FTPBounce--
+Cracks FTP ports. 
+Command: "FTPBounce [port]"
+
+--SMTPOverflow--
+Cracks SMTP mail ports. 
+Command: "SMTPOverflow [port]"
+
+--DECHead--
+Reads info about encrypted files (.dec)
+Command: "DECHead [filename]"
+
+--Decypher--
+Opens encrypted files, if correct password (if any) is given
+Command: "Decypher [filename] [password]"
+  </file>
+
+  <file path="FTP/Uploads" name="RootKit.exe">#BINARY#</file>
+  <file path="FTP/Uploads" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="FTP/Uploads" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="FTP/Uploads" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="FTP/Uploads" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="FTP/Uploads" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+
+<file path="home" name="PASSWORD-LISTS-2.txt">
+DATE: 10/2/1983
+
+- This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
+- Some give (backdoor) ADMIN access, some don't. 
+- Try at your own risk (remember to delete logs, if you don't want to get hacked/traced)!
+
+USERNAME:PASSWORD
+
+admin:admin - (DEFAULT SUPERUSER)
+admin:000001 - (DEFAULT USER)
+guest: - (GUEST ACCOUNT)
+
+admin:password - (BBS servers)
+help:games - (GAME SERVERS)
+admin:alpine - (MAIL SERVERS)
+ftp:uploader - (FTP SERVERS)
+admin:00000000 - (ARMY SERVERS)
+
+HINTS:
+1) If a system has -extra- security in place (like a firewall or proxy), you probaly cannot brute-force into the system using these usernames and password. Instead, you have to use our custom programs and tools on the FTP server!
+2) Sometimes people use passwords with close relation to their family and loved ones to make the password more unique. Try looking up their names in different databases, to find more info about them.
+
+- Malvin and Jim, 
+Seattle Tech Lab
+</file>
+
+<file path="FTP/Uploads" name="PASSWORD-LISTS-1.txt">
+DATE: 6/1/1983
+
+- This is a complete list of the most common usernames and passwords I have found different terminals use on the ARPANET. 
+- Some give (backdoor) ADMIN access, some don't. 
+- Try at your own risk (remember to delete logs, if you don't want to get hacked/traced)!
+
+USERNAME:PASSWORD
+
+admin:admin - (DEFAULT SUPERUSER)
+admin:000001 - (DEFAULT USER)
+guest: - (GUEST ACCOUNT)
+
+admin:password - (BBS servers)
+help:games - (GAME SERVERS)
+admin:alpine - (MAIL SERVERS)
+ftp:uploader - (FTP SERVERS)
+
+HINTS:
+1) If a system has -extra- security in place (like a firewall or proxy), you probaly cannot brute-force into the system using these usernames and password. Instead, you have to use our custom programs and tools on the FTP server!
+2) Sometimes people use passwords with close relation to their family and loved ones to make the password more unique. Try looking up their names in different databases, to find more info about them.
+
+- Malvin and Jim, 
+Seattle Tech Lab
+</file>
+
+   <uploadServerDaemon name="FTP Server" folder="FTP" 
+                      needsAuth="true" color="84,165,212"/>
+
+ <variableMissionListingServer name="Articles" group="hackerfac" iconPath="Docs/TechArticles/Logo.png" articleFolderPath="Docs/TechArticles" color="84,165,212" assigner="false" public="true" title="Seattle Tech Lab"/>
+
+<file path="sys" name="passwd">
+admin:admin:0:0:/:/bin
+ftp:uploader:0:0:/FTP:/bin
+</file>
+
+
+   <encryptedFile path="home" name="TOP-SECRET.dec" extension=".txt" ip="311.437.873.9" header="NORAD" pass="00000000">
+POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
+by Stephen Falken, with John McKittrick
+
+------ INFORMATION CLASSIFIED ----------
+------ INFORMATION CLASSIFIED ----------
+------ INFORMATION CLASSIFIED ----------
+
+CURRENT MAILING:
+
+DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN)
+5 TALL CEDAR ROAD
+GOOSE ISLAND, OREGON 97014
+
+FAMILY STATUS:
+- Son, Joshua (dead)
+- Wife, Lory (dead)
+  </encryptedFile>
+
+<dlink target="ispComp" />
+
+</Computer>

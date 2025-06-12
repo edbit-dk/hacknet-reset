@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="julia.term.dev" 
+name="julia.term.dev"
+security="0" 
+allowsDefaultBootModule="false" 
+type="empty" >
+
+<adminPass pass="000001" />
+
+<ports>21, 22, 25</ports>
+<portsForCrack val="-1" />
+
+  <account username="guest" password="" type="1" />
+
+  <encryptedFile path="home" name="diary.dec" extension=".txt" ip="" header="">
+Dear diary
+
+I LOVE #PLAYERNAME#!
+
+I know he is a nerd. But a cute one.
+But I'm not ready to tell him yet...
+
+- Jen M
+  </encryptedFile>
+
+<file path="sys" name="passwd">
+admin:000001:0:0:/:/bin
+</file>
+
+<dlink target="jmail" />
+
+<dlink target="colorado" />
+
+</Computer>

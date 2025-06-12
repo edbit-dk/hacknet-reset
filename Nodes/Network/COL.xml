@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="colorado" 
+name="GRAND JUNCTION - COLORADO BBS"
+security="0" 
+type="1">
+
+  <portsForCrack val="1" />
+  <ports>22, 21, 25</ports>
+  <trace time="-1" />
+  
+
+<account username="guest" password="" type="1" />
+
+
+  <file path="sys" name="passwd">
+admin::0:0:/:/bin
+  </file>
+
+  <dlink target="oregon" />
+
+</Computer>

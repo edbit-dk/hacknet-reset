@@ -1,0 +1,7 @@
+<CustomFaction name="Ministry of Truth" id="minitrue" playerVal="0">
+  
+  <Action ValueRequired="1">
+
+  </Action>
+
+</CustomFaction>

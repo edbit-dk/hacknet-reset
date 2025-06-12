@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="12-DOOM">
+  <goals>
+    <!-- Goals here -->
+</goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+ <nextMission>NONE</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>Joshua</sender>
+    <subject>12. DOOM</subject>
+    <body>
+SORRY, BUT I WON!
+
+GAME OVER.
+
+HOW ABOUT A NICE GAME OF CHESS?
+
+
+- Joshua
+</body>
+    <attachments>
+    <link comp="delayHost" />
+    </attachments>
+  </email>
+</mission>

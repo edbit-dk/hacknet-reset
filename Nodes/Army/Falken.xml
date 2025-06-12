@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="falken" 
+name="FALKEN TERMINAL"
+security="0" 
+type="3">
+
+<adminPass pass="Lory" />
+
+  <portRemap>ssh=34, smtp=53, ftp=75</portRemap>
+  <portsForCrack val="999" />
+  <ports>22, 25, 21</ports>
+
+
+<file path="bin" name="TIC-TAC-TOE.exe">#BINARY#</file>
+
+    <account username="guest" password="" type="1" />
+
+<file path="sys" name="passwd">
+admin:Lory:35:35:/:/bin
+</file>
+
+  <file path="bin" name="FALKENS-MAZE.exe">#BINARY#</file>
+  <file path="bin" name="BLACK-JACK.exe">#BINARY#</file>
+  <file path="bin" name="GIN-RUMMY.exe">#BINARY#</file>
+  <file path="bin" name="HEARTS.exe">#BINARY#</file>
+  <file path="bin" name="BRIDGE.exe">#BINARY#</file>
+  <file path="bin" name="CHECKERS.exe">#BINARY#</file>
+  <file path="bin" name="CHESS.exe">#BINARY#</file>
+  <file path="bin" name="POKER.exe">#BINARY#</file>
+  
+</Computer>

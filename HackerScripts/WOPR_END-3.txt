@@ -1,0 +1,58 @@
+config [TARGET_COMP] [SOURCE_COMP] 0.2 $#%#$
+connect $#%#$
+clearTerminal $#%#$
+delay 1.0 $#%#$
+writel --CONNECTING-- $#%#$
+delay 2.5 $#%#$
+clearTerminal $#%#$
+writel ** MISSILES TARGETED AND READY ** $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ** CHANGES LOCKED OUT ** $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel  LORING AIRFORCE BASE: $#%#$
+delay 1.0 $#%#$
+write  NO IMPACT $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel ELMENDORF AIRFORCE BASE: $#%#$
+delay 1.0 $#%#$
+write  NO IMPACT $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel GRAND FORKS AIRFORCE BASE: $#%#$
+delay 1.0 $#%#$
+write  NO IMPACT $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ** IMPROPER REQUEST ** $#%#$
+delay 1.0 $#%#$
+writel ** GAME ROUTINE RUNNING ** $#%#$
+delay 1.0 $#%#$
+writel ** ROUTINE MUST COMPLETE BEFORE RESET ** $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel RUN COMMAND: rm /sys/passwd $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel LOGON: $#%#$
+delay 1.0 $#%#$
+write  7KQ201 McKittrick $#%#$
+writel  $#%#$
+writel  $#%#$
+writel ** IDENTIFICATION NOT RECOGNIZED ** $#%#$
+delay 1.0 $#%#$
+writel ** ACCESS DENIED ** $#%#$
+delay 2.5 $#%#$
+writel  $#%#$
+writel  $#%#$
+writel LAUNCH TIME: >> AWAITING CODES << $#%#$
+delay 5.0 $#%#$
+clearTerminal $#%#$
+disconnect $#%#$

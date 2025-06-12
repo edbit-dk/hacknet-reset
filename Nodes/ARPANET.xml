@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp" 
+name="ARPANET Mainframe"
+security="0"
+type="3">
+
+  <admin type="progress" />
+  <portsForCrack val="1" />
+  <ports>22, 21, 25</ports>
+  <admin type="progress" />
+  <firewall level="7" solution="network" additionalTime="0.1"/>
+    <trace time="300" />
+
+  <account username="guest" password="" type="1" />
+
+<ispSystem />
+
+<dlink target="southData" />
+
+<dlink target="jmail" />
+
+
+</Computer>

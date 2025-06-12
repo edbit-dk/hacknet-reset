@@ -1,0 +1,91 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" 
+name="workstation.local"
+security="0"   
+allowsDefaultBootModule="false" 
+type="2" >
+
+<adminPass pass="000001" />
+<account username="#PLAYERNAME#" password="000001" type="0" />
+
+  <account username="guest" password="" type="1" />
+
+<ports>21, 22, 25, 80</ports>
+
+<proxy time="-1" />
+<portsForCrack val="4" />
+<trace time="300" />
+
+
+<file path="home" name="README.txt">
+[FOR USE BY OUTER PARTY MEMBERS – LEVEL B OR BELOW]  
+[PROPERTY OF THE MINISTRY OF TRUTH]
+
+—WELCOME TO YOUR TRUTH MANAGEMENT TERMINAL—
+
+This workstation is assigned to CITIZEN ID: 6079-SMITH-W  
+Location: Records Department, Sector 3 – Airstrip One  
+Version: PartyOS v3.4 [FULLY COMPLIANT]
+
+DAILY TASKS:
+• Execute assigned historical rectifications (REC-TASKS)  
+• Align archived facts with current Party truth  
+• Delete obsolete versions and secure backups  
+• Ensure no trace of inconsistency remains
+
+REMINDERS:
+- Truth is not absolute. Truth is what the Party says it is.
+- If facts change, history must change.
+- Memory Holes are to be used frequently and without hesitation.
+- Thoughtcrime is the worst of all crimes. Avoid personal interpretation.
+
+TOOLS INSTALLED:
+• TextRewriter v4.2  
+• SecureLogDestroyer v2.1  
+• ArchiveSync (PartySec Locked)  
+• RecordValidator (Miniplenty Verified)
+
+AUTHORIZED COMMUNICATION:
+Contact supervisor O'BRIEN (Inner Party - Access Restricted)  
+Use encrypted message queue only when instructed.
+
+—FAILURE TO COMPLY WILL RESULT IN CORRECTION—
+
+GLORY TO BIG BROTHER.  
+IGNORANCE IS STRENGTH.
+</file>
+
+<file path="home" name="personal.txt">
+—I think I remember the real numbers. I think I remember Eastasia being our ally.  
+—I shouldn’t be writing this.  
+—Thoughtcrime is death. Thoughtcrime does not entail death: **thoughtcrime IS death.**
+
+No one is watching. Yet I feel watched.
+</file>
+
+
+<file path="sys" name="init_log.txt">
+[DATE: 1984-04-04]  
+[USER: 6079-SMITH-W]
+
+System boot successful.  
+Workstation status: STABLE  
+Ministry of Truth Connection: VERIFIED  
+Clearance Level: Outer Party - Class B  
+Propaganda Filter: ENABLED  
+Memory Integrity Scan: PASSED
+
+> 09:17 - Morning ration: 1 Victory Gin issued.  
+> 09:30 - Daily tasks downloaded from Minitrue central.  
+> 09:33 - 2 historical corrections scheduled:  
+   - "Chocolate Ration Increase"  
+   - "Oceania’s Eternal Victory in Eastasia"
+
+> System time sync: BIG BROTHER IS WATCHING YOU  
+</file>
+
+
+
+<dlink target="jmail" />
+
+</Computer>

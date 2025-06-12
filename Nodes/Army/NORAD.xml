@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="NORAD" 
+name="NORAD SYSTEM COMMAND"
+ip="311.767.730.5"  
+security="0"  
+type="3">
+
+ <!-- Accounts -->
+<adminPass pass="00000000" />
+
+<account username="McKittrick" password="7KQ201" type="0" />
+<account username="Beringer" password="2KFC49" type="0" />
+
+  <firewall level="6" solution="defcon" additionalTime="0.5"/>
+  <portRemap>ssh=34, smtp=53, ftp=75</portRemap>
+  <portsForCrack val="3" />
+  <ports>22, 25, 21</ports>
+  <trace time="100" />
+
+ <file path="home" name="WAR-ROOM.txt">
+System manager: Mr. McKittrick
+Personal assistant: Miss. Pat Healy
+Command: General Beringer
+ </file>  
+
+  <encryptedFile path="home" name="LAUNCH-CODES.dec" extension=".txt" ip="311.767.730.5" header="DOD" pass="00000000">
+CPE1704TKS
+  </encryptedFile>
+
+<file path="sys" name="passwd">
+admin:00000000:0:0:/:/bin
+McKittrick:7KQ201:0:0:/:/bin
+Beringer:2KFC49:0:0:/:/bin
+</file>
+
+   <encryptedFile path="home" name="TOP-SECRET.dec" extension=".txt" ip="311.767.730.5" header="NORAD" pass="00000000">
+POKER AND ARMAGEDDON: THE ROLE OF BLUFFING IN A NUCLEAR STANDOFF 
+by Stephen Falken, with John McKittrick
+
+------ INFORMATION CLASSIFIED ----------
+------ INFORMATION CLASSIFIED ----------
+------ INFORMATION CLASSIFIED ----------
+
+CURRENT MAILING:
+
+DR. ROBERT HUME (A.K.A. STEPHEN W. FALKEN)
+5 TALL CEDAR ROAD
+GOOSE ISLAND, OREGON 97014
+
+FAMILY STATUS:
+- Son, Joshua (dead)
+- Wife, Lory (dead)
+  </encryptedFile>
+
+  <file path="bin" name="FIGHTER-COMBAT.exe">#BINARY#</file>
+  <file path="bin" name="GUERRILLA-ENGAGEMENT.exe">#BINARY#</file>
+  <file path="bin" name="DESERT-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="AIR-TO-GROUND-ACTIONS.exe">#BINARY#</file>
+  <file path="bin" name="THEATERWIDE-TACTICAL-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="TEHATERWIDE-BIOTOXIC-AND-CHEMICAL-WARFARE.exe">#BINARY#</file>
+  <file path="bin" name="GLOBAL-THERMONUCLEAR-WAR.exe">#BINARY#</file>
+
+  <dlink target="ispComp" />
+  <dlink target="falken" />
+  <dlink target="WOPR" />
+    
+</Computer>
