@@ -1,5 +1,5 @@
-# hacknet-crtl_alt_del
-CTRL-ALT-DEL is a narrative-driven Hacknet extension inspired by George Orwell’s 1984.
+# hacknet-reset
+RESET is a narrative-driven Hacknet extension inspired by George Orwell’s 1984.
 You are Winston Smith — a mid-level technician in the Ministry of Truth — tasked with editing history, erasing facts, and upholding the Party’s version of reality.
 
 But cracks are beginning to show.
