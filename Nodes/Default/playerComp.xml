@@ -1,14 +1,14 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="playerComp" 
-name="workstation.local"
+name="6079-#PLAYERNAME# IUOS (Minitrue)"
 security="0"   
 allowsDefaultBootModule="false" 
 type="2" >
 
 <adminPass pass="000001" />
-<account username="#PLAYERNAME#" password="000001" type="0" />
+<account username="6079-#PLAYERNAME#" password="6079" type="0" />
 
-  <account username="guest" password="" type="1" />
+<account username="guest" password="" type="1" />
 
 <ports>21, 22, 25, 80</ports>
 
@@ -16,6 +16,14 @@ type="2" >
 <portsForCrack val="4" />
 <trace time="300" />
 
+  <encryptedFile path="home" name="diary.dec" extension=".txt" ip="" header="">
+—I think I remember the real numbers. I think I remember Eastasia being our ally.  
+—I shouldn’t be writing this.  
+—Thoughtcrime is death. Thoughtcrime does not entail death: **thoughtcrime IS death.**
+
+No one is watching. Yet I feel watched.
+
+  </encryptedFile>
 
 <file path="home" name="README.txt">
 [FOR USE BY OUTER PARTY MEMBERS – LEVEL B OR BELOW]  
@@ -55,37 +63,8 @@ GLORY TO BIG BROTHER.
 IGNORANCE IS STRENGTH.
 </file>
 
-<file path="home" name="personal.txt">
-—I think I remember the real numbers. I think I remember Eastasia being our ally.  
-—I shouldn’t be writing this.  
-—Thoughtcrime is death. Thoughtcrime does not entail death: **thoughtcrime IS death.**
-
-No one is watching. Yet I feel watched.
-</file>
-
-
-<file path="sys" name="init_log.txt">
-[DATE: 1984-04-04]  
-[USER: 6079-SMITH-W]
-
-System boot successful.  
-Workstation status: STABLE  
-Ministry of Truth Connection: VERIFIED  
-Clearance Level: Outer Party - Class B  
-Propaganda Filter: ENABLED  
-Memory Integrity Scan: PASSED
-
-> 09:17 - Morning ration: 1 Victory Gin issued.  
-> 09:30 - Daily tasks downloaded from Minitrue central.  
-> 09:33 - 2 historical corrections scheduled:  
-   - "Chocolate Ration Increase"  
-   - "Oceania’s Eternal Victory in Eastasia"
-
-> System time sync: BIG BROTHER IS WATCHING YOU  
-</file>
-
-
 
 <dlink target="jmail" />
+<dlink target="minitrue.gov" />
 
 </Computer>

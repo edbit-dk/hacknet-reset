@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ingsoc.org" 
+name="INGSOC PARTY"
+security="0"
+type="3">
+
+  <admin type="progress" />
+  <portsForCrack val="1" />
+  <ports>22, 21, 25</ports>
+  <admin type="progress" />
+  <firewall level="5" solution="party" additionalTime="0.1"/>
+    <trace time="300" />
+
+  <account username="guest" password="" type="1" />
+
+<dlink target="ispComp" />
+<dlink target="jmail" />
+
+</Computer>

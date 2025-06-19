@@ -13,7 +13,7 @@
   <Language>en-us</Language>
   
   <!-- Max name length is 128 characters -->
-	<Name>CRTL-ALT-DEL (1984)</Name>
+	<Name>RESET (1984)</Name>
 	<AllowSaves>true</AllowSaves>
   
   <!-- a coma separated list of notes that start out as being visible-->
@@ -31,14 +31,15 @@
   <Description>Big Brother is watching you. But who are you really watching?</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
-  <Faction>Factions/HackerFaction.xml</Faction>
+  <Faction>Factions/Minitrue.xml</Faction>
+    <Faction>Factions/Brotherhood.xml</Faction>
   
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
   <HasIntroStartup>False</HasIntroStartup>
   
-  <StartingTheme>TerminalOnlyBlack</StartingTheme>
+  <StartingTheme>HackerGreen</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint

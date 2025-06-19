@@ -1,30 +1,22 @@
- 
- 
-  
-    
-> Initializing PartyOS 3.4
-> Location: Airstrip One (Formerly: Great Britain)
+INITIATING BOOT...
+
+> Initializing Ingsoc Unified Operating System...
+> MF Boot Agent v2.3.0
+> RETROS BIOS
+> RBIOS-4.02.08.00 52EE5.E7.E8
+> Copyright 1975-1977 INGSOC
+
+761MB RAM DETECTED...
+> Uppermem: 761 MB
+
+LOADING IUOS...
+> Ingsoc Unified Operating System v.84
+> Copyright 1975-1977 INGSOC
+
+LAUNCHING INTERFACE...
 > Language Package: Newspeak v6.1
 > Surveillance Systems: ACTIVE
 > Citizen Rank: Outer Party – Level B
- 
- 
-  
-                  
-[Message from MINITRUE]
-War is Peace. Freedom is Slavery. Ignorance is Strength.
- 
- 
-  
-     
-You are now connected to the Ministry of Truth's secure processing system.
- 
-      
-As a loyal Party member, you will assist in maintaining the accuracy of historical records.
-Unauthorized curiosity will be treated as thoughtcrime.
-All activity is monitored.
- 
- 
-  
-     
-Glory to Big Brother!
+> Location: Airstrip 1 (Formerly: Great Britain) 
+
+PLEASE WAIT...

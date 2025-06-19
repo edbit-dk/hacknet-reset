@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
-<Computer id="techLab" 
-name="SEATTLE TECH LAB"
+<Computer id="brotherhood.org" 
+name="THE BROTHERHOOD"
 security="0" 
 type="3">
 
@@ -15,7 +15,9 @@ type="3">
 
 <account username="ftp" password="uploader" type="0" />
 
-  <account username="guest" password="" type="1" />
+<account username="guest" password="" type="1" />
+
+<account username="goldstein" password="book" type="0" />
 
   <file path="bin" name="PROGRAMS.txt">
 All new programs are uploaded to the FTP server.
@@ -136,6 +138,6 @@ FAMILY STATUS:
 - Wife, Lory (dead)
   </encryptedFile>
 
-<dlink target="ispComp" />
+  <dlink target="ingsoc.org" />
 
 </Computer>

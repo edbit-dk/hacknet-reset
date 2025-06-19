@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" 
+name="UMS" 
+allowsDefaultBootModule="true"
+security="0"
+type="3" > 
+
+<admin type="basic" />
+<adminPass pass="alpine" />
+<portsForCrack val="1" />
+<ports>80,22,21,25,1433</ports>
+<portsForCrack val="5" />
+  
+  <account username="guest" password="" type="1" />
+  
+  <account username="#PLAYERNAME#" password="mail" type="2" />
+
+  <account username="Julia" password="fiction" type="2" />
+  
+  <mailServer name="Unified Message System" color="0,0,0" generateJunk="true">>
+War is Peace. Freedom is Slavery. Ignorance is Strength.
+ 
+You are now connected to the Ministry of Truth's secure processing system.
+ 
+As a loyal Party member, you will assist in maintaining the accuracy of historical records.
+Unauthorized curiosity will be treated as thoughtcrime.
+All activity is monitored.
+
+Glory to Big Brother!
+  </mailServer> 
+
+  <positionNear target="playerComp" position="0" total="1" />
+</Computer>

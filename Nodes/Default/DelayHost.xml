@@ -8,14 +8,14 @@
   <CreditsDaemon Title="Wargames Credits" ButtonText="Play credits" ConditionalActionSetToRunOnButtonPressPath="Actions/CREDITSActions.xml"/>
 
    <file path="home" name="CreditsData.txt">
-%---  WarGames (1983)  ---
+%---  RESET (1984)  ---
 
 %A game created by:
 Thomas Elvin
 IT teacher
 
 ^Movie inspiration
-Look up the movie "1984"
+Look up the book/movie "1984"
 if you want to learn more about the movies this game has taken inspiration from.
 
 ^THANK YOU

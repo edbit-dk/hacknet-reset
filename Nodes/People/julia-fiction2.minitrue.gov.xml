@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="julia-fiction2.minitrue.gov" 
+name="2526-Julia IUOS (Minitrue, Fiction 2)"
+security="0" 
+allowsDefaultBootModule="false" 
+type="empty" >
+
+<adminPass pass="000001" />
+
+<ports>21, 22, 25</ports>
+<portsForCrack val="-1" />
+
+  <account username="guest" password="" type="1" />
+
+
+
+<dlink target="minitrue.gov" />
+<dlink target="jmail" />
+
+
+</Computer>

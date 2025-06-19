@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="ispComp" 
-name="ARPANET Mainframe"
+name="Airstrip 1"
 security="0"
 type="3">
 
@@ -15,9 +15,8 @@ type="3">
 
 <ispSystem />
 
-<dlink target="southData" />
-
 <dlink target="jmail" />
+<dlink target="ingsoc.org" />
 
 
 </Computer>
