@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="obrien-core.miniluv.mil" 
-name="O'Brien IUOS (INGSOC Inner Party)"
+name="O'Brien UNICS (INGSOC Inner Party)"
 security="0" 
 allowsDefaultBootModule="false" 
 type="empty" >
