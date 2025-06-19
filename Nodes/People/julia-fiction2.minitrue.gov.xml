@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8" ?>
 <Computer id="julia-fiction2.minitrue.gov" 
-name="2526-Julia IUOS (Minitrue, Fiction 2)"
+name="2526-Julia UNICS (Minitrue, Fiction 2)"
 security="0" 
 allowsDefaultBootModule="false" 
 type="empty" >
