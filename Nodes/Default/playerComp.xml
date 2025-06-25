@@ -17,23 +17,32 @@ type="2" >
 <trace time="300" />
 
   <encryptedFile path="home" name="diary.dec" extension=".txt" ip="" header="">
+[START ENTRY - 1984-04-04]
+I understand now that everything is a lie.  
+Even the past is not safe. The Party can erase it, and they do.  
+Sometimes I think I'm the only one who remembers.
+
 —I think I remember the real numbers. I think I remember Eastasia being our ally.  
-—I shouldn’t be writing this.  
+—I shouldn't be writing this.  
 —Thoughtcrime is death. Thoughtcrime does not entail death: **thoughtcrime IS death.**
 
 No one is watching. Yet I feel watched.
 
   </encryptedFile>
 
+<file path="log" name="6079.log">
+
+</file>
+
 <file path="home" name="README.txt">
-[FOR USE BY OUTER PARTY MEMBERS – LEVEL B OR BELOW]  
+[FOR USE BY OUTER PARTY MEMBERS - LEVEL B OR BELOW]  
 [PROPERTY OF THE MINISTRY OF TRUTH]
 
 —WELCOME TO YOUR TRUTH MANAGEMENT TERMINAL—
 
-This workstation is assigned to CITIZEN ID: 6079-SMITH-W  
-Location: Records Department, Sector 3 – Airstrip One  
-Version: PartyOS v3.4 [FULLY COMPLIANT]
+This workstation is assigned to CITIZEN ID: 6079-#PLAYERNAME#
+Location: Recdep, Sector 3 - Airstrip One  
+Version: UNICS V [FULLY COMPLIANT]
 
 DAILY TASKS:
 • Execute assigned historical rectifications (REC-TASKS)  

@@ -1,20 +1,14 @@
 # hacknet-reset
-RESET is a narrative-driven Hacknet extension inspired by George Orwell’s 1984.
-You are Winston Smith — a mid-level technician in the Ministry of Truth — tasked with editing history, erasing facts, and upholding the Party’s version of reality.
+"In a world where facts are overwritten and thoughts are monitored, history is no longer written — it is reset." 
 
-But cracks are beginning to show.
+RESET is a narrative-driven Hacknet extension inspired by George Orwell’s “1984”. 
 
-In a world where truth is a matter of control, every line of code and every hidden logfile could be your path to freedom — or your downfall.
+You are a mid-level technician in the Ministry of Truth — tasked with resetting history, erasing facts, and upholding the Party’s version of reality. 
 
-Features:
-⚠️ Rewrite history in state-controlled archives
+But cracks are beginning to show. 
 
-🧠 Uncover encrypted messages and forbidden literature
+In a world where truth is a matter of control, every line of code and every hidden logfile could be your path to freedom — or your downfall. 
 
-🕵️ Evade surveillance and disable security systems
+Do you follow protocol? Or do you uncover what was never meant to be seen? 
 
-🔐 Navigate betrayals, brainwashing, and your own memories
-
-👁 Experience iconic scenes from 1984 — in terminal form
-
-Big Brother is watching you. But who are you really watching?
+Big Brother is watching you! 

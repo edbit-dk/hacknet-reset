@@ -17,9 +17,7 @@ type="3" >
 
   <account username="Julia" password="fiction" type="2" />
   
-  <mailServer name="Unified Message System" color="0,0,0" generateJunk="true">>
-War is Peace. Freedom is Slavery. Ignorance is Strength.
- 
+  <mailServer name="UNICS Mail System" color="0,0,0" generateJunk="true">>
 You are now connected to the Ministry of Truth's secure processing system.
  
 As a loyal Party member, you will assist in maintaining the accuracy of historical records.

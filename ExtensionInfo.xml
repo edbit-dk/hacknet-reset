@@ -20,26 +20,26 @@
 	<StartingVisibleNodes></StartingVisibleNodes>
   
   <!-- the mission (if any) that loads in as soon as the player starts -->
-  <StartingMission>Missions/1-IMSAI.xml</StartingMission>
+  <StartingMission>Missions/1-directive.xml</StartingMission>
 
   <!-- Conditional action set that is loaded in as soon as a new session is created
   This is useful to do setup stuff, like giving the player programs, assigning them a faction etc.
   If you don't need this, set it to "NONE", or just delete the tag.-->
-  <StartingActions>Actions/STARTActions.xml</StartingActions>
+  <StartingActions>Actions/StartActions.xml</StartingActions>
 
   <!-- Description that appears within Hacknet -->
-  <Description>Big Brother is watching you. But who are you really watching?</Description>
+  <Description>In a world where facts are overwritten and thoughts are monitored, history is no longer written — it is reset.</Description>
   
   <!-- Factions involved in this extension! You can define as many or as few as you like -->
   <Faction>Factions/Minitrue.xml</Faction>
-    <Faction>Factions/Brotherhood.xml</Faction>
+  <Faction>Factions/Brotherhood.xml</Faction>
   
   <StartsWithTutorial>False</StartsWithTutorial>
   
   <!-- this makes the extension start with the standard restart bootup sequence -->
   <HasIntroStartup>False</HasIntroStartup>
   
-  <StartingTheme>HackerGreen</StartingTheme>
+  <StartingTheme>HacknetWhite</StartingTheme>
   <!-- 
   Base Themes are named:
   TerminalOnlyBlack, HacknetBlue, HacknetTeal, HacknetYellow, HackerGreen, HacknetWhite, HacknetPurple, HacknetMint
@@ -70,7 +70,7 @@
         public string WorkshopTags;
         public string WorkshopPreviewImagePath;
   -->
-  <WorkshopDescription>Big Brother is watching you. But who are you really watching?</WorkshopDescription>
+  <WorkshopDescription>In a world where facts are overwritten and thoughts are monitored, history is no longer written — it is reset.</WorkshopDescription>
 
   <!-- Language that this is set to. -->
   <WorkshopLanguage>English</WorkshopLanguage>

@@ -4,31 +4,4 @@
      <SaveGame DelayHost="delayHost" Delay="21.5"/>
   </Instantly>
 
-
- <!-- triggered once the player gets admin access to the target machine -->
-  <OnAdminGained target="WOPR">
-    <!--Actions here-->
-      <LaunchHackScript Filepath="HackerScripts/WOPR_START-1.txt" DelayHost="delayHost" Delay="2" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
-
-      <LoadMission MissionName="Missions/4-WOPR.xml" />
-  </OnAdminGained>
-
-     <!-- triggered once the player gets access to the target machine -->
-  <OnConnect needsMissionComplete="false" target="NORAD">
-    <!--Actions here-->
-    <LaunchHackScript Filepath="HackerScripts/WOPR_GAME-2.txt" DelayHost="delayHost" Delay="2.5" SourceComp="WOPR" TargetComp="playerComp" RequireLogsOnSource="false"/>
-  </OnConnect>
-
-  <!-- triggered once the player gets access to the target machine -->
-  <OnConnect needsMissionComplete="false" target="falken">
-    <!--Actions here-->
-    <AddConditionalActions Filepath="Actions/9-ATTACKActions.xml" />
-  </OnConnect>
-
-  <OnAdminGained target="southData">
-    <!--Actions here-->
-    <RunFunction FunctionName="playCustomSong:Music/80s_synth.ogg" />
-    <LoadMission MissionName="Missions/3-DIALER.xml" />
-  </OnAdminGained>
-
 </ConditionalActions>

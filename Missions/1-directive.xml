@@ -1,0 +1,48 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="1-directive">
+  <goals>
+    <!-- Goals here -->
+      <goal type="filechange" target="recdep.minitrue.gov" file="war_report.txt" path="home" keyword="12,345" removal="true"/>
+      <goal type="filechange" target="recdep.minitrue.gov" file="war_report.txt" path="home" keyword="45,867" caseSensitive="true"/>
+
+      <goal type="filechange" target="recdep.minitrue.gov" file="war_report.txt" path="home" keyword="Eurasia" removal="true"/>
+      <goal type="filechange" target="recdep.minitrue.gov" file="war_report.txt" path="home" keyword="Eastasia" caseSensitive="true"/>
+      
+  </goals>
+  <!-- 
+  Add your mission start and end items here
+  missionStart val="0">loadConditionalActions:Actions/TestActions.xml</missionStart>
+  missionEnd val="1">addRank</missionEnd> 
+  -->
+<missionStart val="0">playCustomSong:Music/Dark.ogg</missionStart>
+<missionEnd val="0">loadConditionalActions:Actions/1-directiveActions.xml</missionEnd>
+<nextMission>Missions/2-directive.xml</nextMission>
+  <!-- 
+  <posting title="startingMission">This would be the post on a message board if it was on them.</posting>
+  -->
+  <email>
+    <sender>MINITRUE-AUTO</sender>
+    <subject>Directive #001 - Welcome</subject>
+<body>
+Welcome to Minitrue, comrade #PLAYERNAME#!
+
+Begin truth rectification.
+
+Connect to recdep.minitrue.gov and execute replacement of outdated wartime data.
+
+Glory to Big Brother!
+</body>
+    <attachments>
+<note title="Directive #001">
+1) Connect to recdep.minitrue.gov
+2) Find war_report.txt
+3) Replace "12,345" with "45,867"
+4) Replace "Eurasia" with "Eastasia"
+5) Reply back when done
+</note>
+
+<account comp="recdep.minitrue.gov" user="#PLAYERNAME#" pass="recdep" />
+  
+  </attachments>
+  </email>
+</mission>

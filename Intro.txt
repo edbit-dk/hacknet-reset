@@ -1,22 +1,17 @@
-INITIATING BOOT...
+[BOOTING UNICS V...]   
 
-> Initializing Unified Ingsoc Computing System...
-> MF Boot Agent v2.3.0
-> RETROS BIOS
-> RBIOS-4.02.08.00 52EE5.E7.E8
-> Copyright 1969-1984 INGSOC
+> Initializing Unified Ingsoc Computing System V... OK 
+> Connecting to INGSOCNET... OK   
+> Synchronizing ID-6079 to BB_TPOL... OK   
 
-761MB RAM DETECTED...
-> Uppermem: 761 MB
+[INGSOC DOCTRINE INITIATED] 
 
-LOADING UNICS...
-> Unified Ingsoc Computing System v.84
-> Copyright 1984 INGSOC
+- WAR IS PEACE. 
+- FREEDOM IS SLAVERY. 
+- IGNORANCE IS STRENGTH. 
+- WHO CONTROLS THE PAST CONTROLS THE FUTURE. 
+- WHO CONTROLS THE PRESENT CONTROLS THE PAST. 
 
-LAUNCHING INTERFACE...
-> Language Package: Newspeak v6.1
-> Surveillance Systems: ACTIVE
-> Citizen Rank: Outer Party – Level B
-> Location: Airstrip 1 (Formerly: Great Britain) 
+[BOOT COMPLETE] 
 
-PLEASE WAIT...
+> Incoming message... 

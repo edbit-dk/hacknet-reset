@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="recdep.minitrue.gov" 
+name="Recdep (Records Department)"
+security="0"  
+type="3">
+
+<adminPass pass="bb" />
+
+ <!-- Accounts -->
+  <portsForCrack val="0" />
+  <ports>22, 21</ports>
+  <trace time="-1" />
+
+  <account username="guest" password="" type="1" />
+
+   <account username="#PLAYERNAME#" password="recdep" type="2" />
+
+  <file path="home" name="war_report.txt">
+[WAR REPORT - 3 MARCH]  
+Victory secured on Malabar Front.  
+Enemy: Eurasia  
+Total enemy casualties: 12,345
+Oceania losses: minimal  
+
+The heroic soldiers of Oceania have once again crushed the barbaric armies of Eastasia in a stunning display of loyalty and strength.
+
+  </file>
+
+    <file path="home" name="rations.csv">
+date,item,amount
+1984-04-06,chocolate,2
+1984-04-06,razor_blades,4
+1984-04-06,victory_gin,1
+  </file>
+
+  <dlink target="minitrue.gov" />
+
+
+</Computer>

@@ -1,0 +1,6 @@
+<ConditionalActions>
+  
+  <Instantly>
+     <AppendToFile DelayHost="delayHost" Delay="1" TargetComp="playerComp" TargetFolderpath="log" TargetFilename="6079.log">#PLAYERNAME# completed Directive #001: historical data aligned.</AppendToFile>
+  </Instantly>
+  </ConditionalActions>

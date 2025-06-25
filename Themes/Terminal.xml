@@ -5,7 +5,7 @@
 
   <!-- This is a path to the background image file. It should be 1920x1080, and a .jpg or .png file.
   If this is left out, the theme will automatically generate a dynamic background for the theme-->
-  <backgroundImagePath>Themes/Backgrounds/TerminalBlue.png</backgroundImagePath>
+  <backgroundImagePath>Themes/Backgrounds/BG.png</backgroundImagePath>
 
   <!-- If this is set to false, the background image will stretch to fill the background area.
   If true, the background will be drawn aspect ratio correct in the middle of the screen, with the
